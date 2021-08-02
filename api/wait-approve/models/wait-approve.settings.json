@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wait_approves",
+  "info": {
+    "name": "WaitApprove",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "choice1": {
+      "type": "string"
+    },
+    "choice2": {
+      "type": "string"
+    },
+    "choice3": {
+      "type": "string"
+    },
+    "choice4": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "wait_approves"
+    }
+  }
+}

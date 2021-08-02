@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wait-approves",
+      "handler": "wait-approve.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wait-approves/count",
+      "handler": "wait-approve.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wait-approves/:id",
+      "handler": "wait-approve.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wait-approves",
+      "handler": "wait-approve.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wait-approves/:id",
+      "handler": "wait-approve.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wait-approves/:id",
+      "handler": "wait-approve.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
