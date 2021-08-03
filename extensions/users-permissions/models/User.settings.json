@@ -66,6 +66,10 @@
     "histories": {
       "via": "user",
       "collection": "history"
+    },
+    "rewards": {
+      "via": "users_permissions_users",
+      "collection": "rewards"
     }
   }
 }
