@@ -70,6 +70,14 @@
     "rewards": {
       "via": "users_permissions_users",
       "collection": "rewards"
+    },
+    "math": {
+      "via": "users_permissions_users",
+      "model": "math"
+    },
+    "sci": {
+      "via": "users_permissions_users",
+      "model": "sci"
     }
   }
 }

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "histories",
   "info": {
-    "name": "History"
+    "name": "History",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "date": {
-      "type": "datetime"
+      "type": "date"
     },
     "heading": {
       "type": "string"
