@@ -78,6 +78,10 @@
     "sci": {
       "via": "users_permissions_users",
       "model": "sci"
+    },
+    "extra": {
+      "via": "users_permissions_users",
+      "model": "extra"
     }
   }
 }

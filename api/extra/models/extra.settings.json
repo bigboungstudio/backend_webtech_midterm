@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "extras",
+  "info": {
+    "name": "Extra",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "c1": {
+      "type": "string"
+    },
+    "c2": {
+      "type": "string"
+    },
+    "c3": {
+      "type": "string"
+    },
+    "c4": {
+      "type": "string"
+    },
+    "ans": {
+      "type": "string"
+    },
+    "point": {
+      "type": "integer"
+    },
+    "users_permissions_users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "extra"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
