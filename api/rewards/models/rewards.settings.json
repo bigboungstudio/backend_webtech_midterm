@@ -26,6 +26,9 @@
       "collection": "user",
       "via": "rewards",
       "dominant": true
+    },
+    "amount": {
+      "type": "integer"
     }
   }
 }
