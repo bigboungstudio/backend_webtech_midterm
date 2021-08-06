@@ -18,9 +18,6 @@
     "point": {
       "type": "integer"
     },
-    "image": {
-      "type": "string"
-    },
     "users_permissions_users": {
       "plugin": "users-permissions",
       "collection": "user",
@@ -29,6 +26,18 @@
     },
     "amount": {
       "type": "integer"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
