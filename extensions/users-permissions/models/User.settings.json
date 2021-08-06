@@ -71,17 +71,17 @@
       "via": "users_permissions_users",
       "collection": "rewards"
     },
-    "math": {
+    "extras": {
       "via": "users_permissions_users",
-      "model": "math"
+      "collection": "extra"
     },
-    "sci": {
+    "maths": {
       "via": "users_permissions_users",
-      "model": "sci"
+      "collection": "math"
     },
-    "extra": {
+    "scis": {
       "via": "users_permissions_users",
-      "model": "extra"
+      "collection": "sci"
     }
   }
 }

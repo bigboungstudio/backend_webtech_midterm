@@ -36,7 +36,8 @@
     "users_permissions_users": {
       "plugin": "users-permissions",
       "collection": "user",
-      "via": "extra"
+      "via": "extras",
+      "dominant": true
     },
     "type": {
       "type": "string"

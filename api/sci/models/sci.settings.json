@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "scis",
   "info": {
-    "name": "Sci"
+    "name": "Sci",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -38,7 +39,8 @@
     "users_permissions_users": {
       "plugin": "users-permissions",
       "collection": "user",
-      "via": "sci"
+      "via": "scis",
+      "dominant": true
     }
   }
 }

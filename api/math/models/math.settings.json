@@ -36,7 +36,8 @@
     "users_permissions_users": {
       "plugin": "users-permissions",
       "collection": "user",
-      "via": "math"
+      "via": "maths",
+      "dominant": true
     },
     "question": {
       "type": "string"
