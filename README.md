@@ -14,6 +14,12 @@ npm install
 npm run develop
 ```
 
+## สร้างไฟล์ .env
+
+```
+cp .env.example .env
+```
+
 ## บัญชี Super Admin
 
 - Email : admin@gmail.com
